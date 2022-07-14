@@ -1,0 +1,9 @@
+{
+    "pack": {
+       "pack_format": 9,
+       "description": [
+          {"text":"By Wilyan_Kramer\n","color":"#CBC8A4"},
+          {"text":"Optifine REQUIRED","color":"#AE9963","italic":false}
+       ]
+    }
+ }

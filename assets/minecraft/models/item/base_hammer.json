@@ -1,0 +1,101 @@
+{
+	"credit": "Made with Blockbench",
+	"elements": [
+		{
+			"name": "middle",
+			"from": [6, 0.5, 4],
+			"to": [10, 4.5, 12],
+			"faces": {
+				"east": {"uv": [2, 2, 10, 6], "texture": "#mat"},
+				"west": {"uv": [2, 2, 10, 6], "texture": "#mat"},
+				"up": {"uv": [2, 6, 10, 10], "texture": "#mat"},
+				"down": {"uv": [2, 6, 10, 10], "texture": "#mat"}
+			}
+		},
+		{
+			"name": "n_face",
+			"from": [5.5, 0, 3.5],
+			"to": [10.5, 5, 4.5],
+			"faces": {
+				"north": {"uv": [5, 5, 10, 10], "texture": "#mat"},
+				"east": {"uv": [4, 5, 5, 10], "texture": "#mat"},
+				"south": {"uv": [5, 5, 10, 10], "texture": "#mat"},
+				"west": {"uv": [10, 5, 11, 10], "texture": "#mat"},
+				"up": {"uv": [5, 4, 10, 5], "texture": "#mat"},
+				"down": {"uv": [5, 10, 10, 11], "texture": "#mat"}
+			}
+		},
+		{
+			"name": "s_face",
+			"from": [5.5, 0, 11.5],
+			"to": [10.5, 5, 12.5],
+			"faces": {
+				"north": {"uv": [5, 5, 10, 10], "texture": "#mat"},
+				"east": {"uv": [4, 5, 5, 10], "texture": "#mat"},
+				"south": {"uv": [5, 5, 10, 10], "texture": "#mat"},
+				"west": {"uv": [10, 5, 11, 10], "texture": "#mat"},
+				"up": {"uv": [5, 4, 10, 5], "texture": "#mat"},
+				"down": {"uv": [5, 10, 10, 11], "texture": "#mat"}
+			}
+		},
+		{
+			"name": "shaft",
+			"from": [7, 0, 7],
+			"to": [9, 24, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#hside"},
+				"east": {"uv": [2, 0, 4, 16], "texture": "#hside"},
+				"south": {"uv": [4, 0, 6, 16], "texture": "#hside"},
+				"west": {"uv": [6, 0, 8, 16], "texture": "#hside"},
+				"up": {"uv": [9, 9, 7, 7], "texture": "#htop"},
+				"down": {"uv": [9, 7, 7, 9], "texture": "#htop"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, -180],
+			"translation": [0, 8.5, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, -180],
+			"translation": [0, 8.5, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 0, 0],
+			"translation": [0, 8.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, -180],
+			"translation": [0, 8.5, 0]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [144, -52, -76],
+			"translation": [-0.75, 1, 0]
+		},
+		"head": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 14, 0]
+		},
+		"fixed": {
+			"rotation": [-180, 90, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "head",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		},
+		{
+			"name": "handle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [3]
+		}
+	]
+}

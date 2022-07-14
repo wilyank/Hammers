@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/base_hammer",
+	"textures": {
+		"mat": "block/iron_block",
+		"hside": "block/oak_log",
+		"htop": "block/oak_log_top"
+	}
+}
