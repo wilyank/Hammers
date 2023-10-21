@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/base_glove",
+	"textures": { 
+		"mat": "block/stone"
+	}
+}
